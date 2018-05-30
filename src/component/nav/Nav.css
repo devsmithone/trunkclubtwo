@@ -5,6 +5,10 @@
   font-family: Arial;
 }
 
+.nav-right {
+  float: right;
+}
+
 /* Links inside the navbar */
 .navbar a {
   float: left;

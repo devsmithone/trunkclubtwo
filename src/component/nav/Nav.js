@@ -28,7 +28,13 @@ const Nav = () => (
 					</div>
 				</div>
 
-				<a href="/">BLOG</a> 
+				<a href="/">BLOG</a>
+
+				<div className='nav-right'>
+					<a href="/">FAQ</a>
+					<a href="/">SIGN IN</a>
+					<button>GET STARTED</button>
+				</div> 
 			</nav>
 		</div>
 	)
