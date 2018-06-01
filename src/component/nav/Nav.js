@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Nav.css';
+import './Nav.scss';
 
 const Nav = () => (
 		<div>
