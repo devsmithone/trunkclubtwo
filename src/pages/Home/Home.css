@@ -1,4 +1,5 @@
 #banner {
   background: url(./clothing.jpg) no-repeat center center fixed;
+  background-position: center;
   width: 100%;
   width: 100vh; }
