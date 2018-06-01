@@ -1,5 +1,18 @@
 #banner {
-  background: url(./clothing.jpg) no-repeat center center fixed;
+  background-image: url(./clothing.jpg);
   background-position: center;
-  width: 100%;
-  width: 100vh; }
+  height: 600px;
+  width: 100%; }
+
+#banner-overlay {
+  background-image: url(./frenchie.jpg) no repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%; }
+
+#shop {
+  background-color: blue; }
+
+footer {
+  background-color: green; }
