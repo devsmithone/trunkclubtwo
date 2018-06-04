@@ -12,10 +12,10 @@ class Home extends Component {
 
 				<section id='benefits'>
 					<h2>The benefits of Trunk Club</h2>
-						<div className='brands'>asd</div>
-						<div className='stylist'>asd</div>
-						<div className='wardrobes'>asd</div>
-						<div className='schedule'>asd</div>
+						<div className='benefitDivs' id='brands'>asd</div>
+						<div className='benefitDivs' id='stylist'>asd</div>
+						<div className='benefitDivs' id='wardrobes'>asd</div>
+						<div className='benefitDivs' id='schedule'>asd</div>
 				</section>
 
 				<section id='shop'>
