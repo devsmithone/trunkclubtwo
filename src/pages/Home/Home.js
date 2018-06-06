@@ -20,16 +20,31 @@ class Home extends Component {
 
 				<section id='shop'>
 					<h2>Three ways to shop</h2>
-						<div className='order'>asd</div>
-						<div className='clubhouse'>asd</div>
-						<div className='custom'>asd</div>						
+						<div className='shopDivs' id='order'>asd</div>
+						<div className='shopDivs' id='clubhouse'>asd</div>
+						<div className='shopDivs' id='custom'>asd</div>						
 				</section>
 
 				<footer>
-					<div id='services'>asd</div>
-					<div id='about'>asd</div>
-					<div id='partners'>asd</div>
-					<div id='icons'>asd</div>
+					<div className='footerDivs' id='services'>
+						<p>Services</p>
+					</div>
+
+					<div className='footerDivs' id='about'>
+						<p>About us</p>
+					</div>
+
+					<div className='footerDivs' id='partners'>
+						<p>Partner with us</p>
+					</div>
+
+					<div className='footerDivs' id='questions'>
+						<p>Have a question?</p>
+					</div>
+
+					<div className='footerDivs' id='icons'>
+						<p>Icons go here</p>
+					</div>
 				</footer>
 			</div>
 		);

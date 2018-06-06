@@ -14,17 +14,61 @@
 }
 
 #shop {
-	background-color: blue;
+	background-color: grey;
+	padding-bottom: 30px;
+}
+
+#shop > h2 {
+	padding-left: 680px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.shopDivs {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	margin-left: 85px;
+	background-color: red;
+}
+
+#benefits {
+	margin-left: 250px;
 }
 
 #benefits > h2 {
-	padding-left: 625px;
+	padding-left: 400px;
 }
 
 .benefitDivs {
 	display: inline-block;
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+	background-color: blue;
 }
 
 footer {
 	background-color: green;
 }
+
+.footerDivs {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: brown;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
