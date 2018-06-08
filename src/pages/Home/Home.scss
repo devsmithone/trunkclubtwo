@@ -61,9 +61,68 @@ footer {
 }
 
 
+@media screen and (max-width: 600px){
+	#banner {
+		background-image: url(./clothing.jpg);
+		background-position: center;
+		height: 500px;
+	    width: 100%;
+	}
 
+	#benefits {
+		margin-left: 10px;
+	}
 
+	#benefits > h2 {
+		padding-left: 70px;
+	}
 
+	.benefitDivs {
+		display: flex;
+		width: 360px;
+		height: 120px;
+		margin: 10px;
+		background-color: blue;
+	}
+
+	#shop > h2 {
+		padding-left: 120px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.shopDivs {
+		display: flex;
+		width: 360px;
+		height: 120px;
+		margin: 20px;
+		background-color: red;
+	}
+
+	.footerDivs {
+		display: flex;
+		width: 360px;
+		height: 200px;
+		background-color: brown;
+		margin: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) { 
+	#benefits > h2 {
+		padding-left: 155px;
+	}
+
+	#benefits {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#brands {
+		
+	}
+} 
 
 
 

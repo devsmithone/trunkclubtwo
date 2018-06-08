@@ -1,41 +1,37 @@
 import React, { Component } from 'react';
-import './Nav.scss';
+import './Nav.css';
+
+import Bars from '../Bars';
 
 const Nav = () => (
 		<div>
-			<nav className='navbar'>
-				<div className="dropdown">
-					<button className="dropbtn">WOMEN'S
-						<i className="fa fa-caret-down"></i>
-					</button>
-
-					<div className="dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					</div>
-				</div> 
-
-				<div className="dropdown">
-					<button className="dropbtn">MEN'S
-						<i className="fa fa-caret-down"></i>
-					</button>
-
-					<div className="dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					</div>
-				</div>
-
-				<a href="/">BLOG</a>
-
-				<div className='nav-right'>
-					<a href="/">FAQ</a>
-					<a href="/">SIGN IN</a>
-					<button>GET STARTED</button>
-				</div> 
-			</nav>
+			<div className="Navbar">
+			   <div className="Navbar__Link Navbar__Link-brand">
+			      Trunk Club 2
+			    </div>
+			    <div className="Navbar__Link Navbar__Link-toggle">
+			      <i className="fas fa-bars"><Bars /></i>
+			    </div>
+			  <nav className="Navbar__Items">
+			    <div className="Navbar__Link">
+			      Longer Link
+			    </div>
+			    <div className="Navbar__Link">
+			      Longer Link
+			    </div>
+			    <div className="Navbar__Link">
+			      Link
+			    </div>
+			  </nav>
+			  <nav className="Navbar__Items Navbar__Items--right">
+			    <div className="Navbar__Link">
+			      Link
+			    </div>
+			    <div className="Navbar__Link">
+			      Link
+			    </div>
+			  </nav>
+			</div>
 		</div>
 	)
 
